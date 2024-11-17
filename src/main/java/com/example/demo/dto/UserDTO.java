@@ -1,3 +1,7 @@
+//UserDTO.java:
+// A lightweight object that carries data between layers. It may differ from the User entity to exclude or add specific data for a request/response.
+
+
 package com.example.demo.dto;
 
 import lombok.AllArgsConstructor;

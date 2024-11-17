@@ -1,3 +1,7 @@
+//UserService.java:
+// Contains the business logic for user operations, bridging the controller and repository layers.
+
+
 package com.example.demo.service;
 
 

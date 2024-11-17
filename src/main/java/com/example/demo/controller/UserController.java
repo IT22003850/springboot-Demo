@@ -1,3 +1,7 @@
+//UserController.java:
+// Handles HTTP requests (like GET, POST, PUT, DELETE) related to users and routes them to the appropriate service methods.
+
+
 package com.example.demo.controller;
 
 
@@ -8,8 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping(value="api/v1/user")
+@RestController              //@RestController: Indicates this class handles RESTful web services.
+@RequestMapping(value="api/v1/user")   //Specifies the base URL for this controller's endpoints.
 @CrossOrigin
 
 public class UserController {

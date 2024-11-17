@@ -1,3 +1,7 @@
+//User.java:
+// Represents the database table User. It's a JPA entity mapped to the database.
+
+
 package com.example.demo.entity;
 
 import jakarta.persistence.Entity;

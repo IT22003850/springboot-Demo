@@ -1,3 +1,7 @@
+//UserRepo.java:
+// Manages data access to the User database table, typically providing CRUD operations.
+
+
 package com.example.demo.repo;
 
 import com.example.demo.entity.User;
